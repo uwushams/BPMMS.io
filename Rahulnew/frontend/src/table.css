@@ -1,0 +1,60 @@
+/* Table.css */
+
+.container {
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: calc(100% - 16px); /* Adjusted width to accommodate padding */
+  padding: 8px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  background-color: darkblue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #001F3F;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: auto; /* Center the table horizontally */
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: darkblue;
+  color: white;
+}
+
+td {
+  background-color: #f2f2f2;
+}
